@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A890A89F1D46025900E96EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A89E1D46025900E96EC1 /* main.m */; };
+		A890A8A21D46025900E96EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A8A11D46025900E96EC1 /* AppDelegate.m */; };
+		A890A8A51D46025900E96EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A8A41D46025900E96EC1 /* ViewController.m */; };
+		A890A8A81D46025900E96EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A890A8A61D46025900E96EC1 /* Main.storyboard */; };
+		A890A8AA1D46025900E96EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A890A8A91D46025900E96EC1 /* Assets.xcassets */; };
+		A890A8AD1D46025900E96EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A890A8AB1D46025900E96EC1 /* LaunchScreen.storyboard */; };
+		A890A8B81D46025900E96EC1 /* WDDTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A8B71D46025900E96EC1 /* WDDTextFieldDemoTests.m */; };
+		A890A8C31D46025900E96EC1 /* WDDTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A8C21D46025900E96EC1 /* WDDTextFieldDemoUITests.m */; };
+		A890A8D31D46027800E96EC1 /* WDDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A890A8D21D46027800E96EC1 /* WDDTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A890A8B41D46025900E96EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A890A8921D46025900E96EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A890A8991D46025900E96EC1;
+			remoteInfo = WDDTextFieldDemo;
+		};
+		A890A8BF1D46025900E96EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A890A8921D46025900E96EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A890A8991D46025900E96EC1;
+			remoteInfo = WDDTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A890A89A1D46025900E96EC1 /* WDDTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDDTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A890A89E1D46025900E96EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A890A8A01D46025900E96EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A890A8A11D46025900E96EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A890A8A31D46025900E96EC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A890A8A41D46025900E96EC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A890A8A71D46025900E96EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A890A8A91D46025900E96EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A890A8AC1D46025900E96EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A890A8AE1D46025900E96EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A890A8B31D46025900E96EC1 /* WDDTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDDTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A890A8B71D46025900E96EC1 /* WDDTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDTextFieldDemoTests.m; sourceTree = "<group>"; };
+		A890A8B91D46025900E96EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A890A8BE1D46025900E96EC1 /* WDDTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDDTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A890A8C21D46025900E96EC1 /* WDDTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDTextFieldDemoUITests.m; sourceTree = "<group>"; };
+		A890A8C41D46025900E96EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A890A8D11D46027800E96EC1 /* WDDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDDTextField.h; sourceTree = "<group>"; };
+		A890A8D21D46027800E96EC1 /* WDDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDDTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A890A8971D46025900E96EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8B01D46025900E96EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8BB1D46025900E96EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A890A8911D46025900E96EC1 = {
+			isa = PBXGroup;
+			children = (
+				A890A89C1D46025900E96EC1 /* WDDTextFieldDemo */,
+				A890A8B61D46025900E96EC1 /* WDDTextFieldDemoTests */,
+				A890A8C11D46025900E96EC1 /* WDDTextFieldDemoUITests */,
+				A890A89B1D46025900E96EC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A890A89B1D46025900E96EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A890A89A1D46025900E96EC1 /* WDDTextFieldDemo.app */,
+				A890A8B31D46025900E96EC1 /* WDDTextFieldDemoTests.xctest */,
+				A890A8BE1D46025900E96EC1 /* WDDTextFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A890A89C1D46025900E96EC1 /* WDDTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A890A8D01D46027800E96EC1 /* WDDTextField */,
+				A890A8A01D46025900E96EC1 /* AppDelegate.h */,
+				A890A8A11D46025900E96EC1 /* AppDelegate.m */,
+				A890A8A31D46025900E96EC1 /* ViewController.h */,
+				A890A8A41D46025900E96EC1 /* ViewController.m */,
+				A890A8A61D46025900E96EC1 /* Main.storyboard */,
+				A890A8A91D46025900E96EC1 /* Assets.xcassets */,
+				A890A8AB1D46025900E96EC1 /* LaunchScreen.storyboard */,
+				A890A8AE1D46025900E96EC1 /* Info.plist */,
+				A890A89D1D46025900E96EC1 /* Supporting Files */,
+			);
+			path = WDDTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		A890A89D1D46025900E96EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A890A89E1D46025900E96EC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A890A8B61D46025900E96EC1 /* WDDTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A890A8B71D46025900E96EC1 /* WDDTextFieldDemoTests.m */,
+				A890A8B91D46025900E96EC1 /* Info.plist */,
+			);
+			path = WDDTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		A890A8C11D46025900E96EC1 /* WDDTextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A890A8C21D46025900E96EC1 /* WDDTextFieldDemoUITests.m */,
+				A890A8C41D46025900E96EC1 /* Info.plist */,
+			);
+			path = WDDTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		A890A8D01D46027800E96EC1 /* WDDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A890A8D11D46027800E96EC1 /* WDDTextField.h */,
+				A890A8D21D46027800E96EC1 /* WDDTextField.m */,
+			);
+			name = WDDTextField;
+			path = ../../WDDTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A890A8991D46025900E96EC1 /* WDDTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A890A8C71D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemo" */;
+			buildPhases = (
+				A890A8961D46025900E96EC1 /* Sources */,
+				A890A8971D46025900E96EC1 /* Frameworks */,
+				A890A8981D46025900E96EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDDTextFieldDemo;
+			productName = WDDTextFieldDemo;
+			productReference = A890A89A1D46025900E96EC1 /* WDDTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A890A8B21D46025900E96EC1 /* WDDTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A890A8CA1D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemoTests" */;
+			buildPhases = (
+				A890A8AF1D46025900E96EC1 /* Sources */,
+				A890A8B01D46025900E96EC1 /* Frameworks */,
+				A890A8B11D46025900E96EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A890A8B51D46025900E96EC1 /* PBXTargetDependency */,
+			);
+			name = WDDTextFieldDemoTests;
+			productName = WDDTextFieldDemoTests;
+			productReference = A890A8B31D46025900E96EC1 /* WDDTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A890A8BD1D46025900E96EC1 /* WDDTextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A890A8CD1D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemoUITests" */;
+			buildPhases = (
+				A890A8BA1D46025900E96EC1 /* Sources */,
+				A890A8BB1D46025900E96EC1 /* Frameworks */,
+				A890A8BC1D46025900E96EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A890A8C01D46025900E96EC1 /* PBXTargetDependency */,
+			);
+			name = WDDTextFieldDemoUITests;
+			productName = WDDTextFieldDemoUITests;
+			productReference = A890A8BE1D46025900E96EC1 /* WDDTextFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A890A8921D46025900E96EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wdong;
+				TargetAttributes = {
+					A890A8991D46025900E96EC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TUT6WU5FHW;
+					};
+					A890A8B21D46025900E96EC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TUT6WU5FHW;
+						TestTargetID = A890A8991D46025900E96EC1;
+					};
+					A890A8BD1D46025900E96EC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TUT6WU5FHW;
+						TestTargetID = A890A8991D46025900E96EC1;
+					};
+				};
+			};
+			buildConfigurationList = A890A8951D46025900E96EC1 /* Build configuration list for PBXProject "WDDTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A890A8911D46025900E96EC1;
+			productRefGroup = A890A89B1D46025900E96EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A890A8991D46025900E96EC1 /* WDDTextFieldDemo */,
+				A890A8B21D46025900E96EC1 /* WDDTextFieldDemoTests */,
+				A890A8BD1D46025900E96EC1 /* WDDTextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A890A8981D46025900E96EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890A8AD1D46025900E96EC1 /* LaunchScreen.storyboard in Resources */,
+				A890A8AA1D46025900E96EC1 /* Assets.xcassets in Resources */,
+				A890A8A81D46025900E96EC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8B11D46025900E96EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8BC1D46025900E96EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A890A8961D46025900E96EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890A8A51D46025900E96EC1 /* ViewController.m in Sources */,
+				A890A8D31D46027800E96EC1 /* WDDTextField.m in Sources */,
+				A890A8A21D46025900E96EC1 /* AppDelegate.m in Sources */,
+				A890A89F1D46025900E96EC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8AF1D46025900E96EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890A8B81D46025900E96EC1 /* WDDTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890A8BA1D46025900E96EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890A8C31D46025900E96EC1 /* WDDTextFieldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A890A8B51D46025900E96EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A890A8991D46025900E96EC1 /* WDDTextFieldDemo */;
+			targetProxy = A890A8B41D46025900E96EC1 /* PBXContainerItemProxy */;
+		};
+		A890A8C01D46025900E96EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A890A8991D46025900E96EC1 /* WDDTextFieldDemo */;
+			targetProxy = A890A8BF1D46025900E96EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A890A8A61D46025900E96EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A890A8A71D46025900E96EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A890A8AB1D46025900E96EC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A890A8AC1D46025900E96EC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A890A8C51D46025900E96EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A890A8C61D46025900E96EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A890A8C81D46025900E96EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDDTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A890A8C91D46025900E96EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDDTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A890A8CB1D46025900E96EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDDTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDDTextFieldDemo.app/WDDTextFieldDemo";
+			};
+			name = Debug;
+		};
+		A890A8CC1D46025900E96EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDDTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDDTextFieldDemo.app/WDDTextFieldDemo";
+			};
+			name = Release;
+		};
+		A890A8CE1D46025900E96EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDDTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDDTextFieldDemo;
+			};
+			name = Debug;
+		};
+		A890A8CF1D46025900E96EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDDTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianhui.WDDTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDDTextFieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A890A8951D46025900E96EC1 /* Build configuration list for PBXProject "WDDTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890A8C51D46025900E96EC1 /* Debug */,
+				A890A8C61D46025900E96EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A890A8C71D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890A8C81D46025900E96EC1 /* Debug */,
+				A890A8C91D46025900E96EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A890A8CA1D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890A8CB1D46025900E96EC1 /* Debug */,
+				A890A8CC1D46025900E96EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A890A8CD1D46025900E96EC1 /* Build configuration list for PBXNativeTarget "WDDTextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890A8CE1D46025900E96EC1 /* Debug */,
+				A890A8CF1D46025900E96EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A890A8921D46025900E96EC1 /* Project object */;
+}
